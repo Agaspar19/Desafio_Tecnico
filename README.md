@@ -30,7 +30,7 @@ git clone https://github.com/Agaspar19/desafio-tecnico.git
 cd desafio-tecnico
 
 ---
-### Baixar o arquivo zip.
+Ou Baixar o arquivo zip.
 
 2. Backend
 
@@ -91,4 +91,5 @@ Optei por Leaflet em vez de Google Maps por ser open-source, fácil de integrar 
 
 Ícone personalizado
 Configurei location.png no public/ do frontend para diferenciar os pontos no mapa.
+
 
