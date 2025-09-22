@@ -1,0 +1,38 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tela Principal*/
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Barra leteral */
+.sidebar {
+  width: 30%;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  overflow-y: auto;
+}
+
+/* Estilo para erros */
+.erro {
+  color: red;
+}
+
+/* Área do mapa */
+.map {
+  flex: 1;
+  height: 100vh;
+}
+
+/* Leaflet precisa desses estilos */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
