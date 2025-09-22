@@ -71,4 +71,24 @@ Execute o servidor:
 
 npm run dev
 
+````
+
 OBS: rodar em terminais diferentes.
+
+## Decisões Importantes
+
+Separação clara em camadas
+Organizei o projeto em Backend/, Frontend/ e Database/ para maior clareza e manutenção.
+
+Banco SQLite
+Escolhido por ser leve, simples de configurar e suficiente para simulação de pontos fictícios.
+
+Cálculo de proximidade com Haversine
+Implementado manualmente no backend para treinar a lógica matemática de geolocalização.
+
+Leaflet + OpenStreetMap
+Optei por Leaflet em vez de Google Maps por ser open-source, fácil de integrar e não exigir chave de API.
+
+Ícone personalizado
+Configurei location.png no public/ do frontend para diferenciar os pontos no mapa.
+
