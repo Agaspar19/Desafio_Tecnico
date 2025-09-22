@@ -22,7 +22,7 @@ O foco é demonstrar **integração entre frontend, backend e banco de dados loc
 
 ---
 
-## ▶️ Como Rodar o Projeto Localmente
+## Como Rodar o Projeto Localmente
 
 ### 1. Clonar o repositório
 ```bash
@@ -72,24 +72,3 @@ Execute o servidor:
 npm run dev
 
 OBS: rodar em terminais diferentes.
-
-
-Decisões Importantes
-
-Separação clara em camadas
-Organizei o projeto em Backend/, Frontend/ e Database/ para maior clareza e manutenção.
-
-Banco SQLite
-Escolhido por ser leve, simples de configurar e suficiente para simulação de pontos fictícios.
-
-Cálculo de proximidade com Haversine
-Implementado manualmente no backend para treinar a lógica matemática de geolocalização.
-
-Leaflet + OpenStreetMap
-Optei por Leaflet em vez de Google Maps por ser open-source, fácil de integrar e não exigir chave de API.
-
-Ícone personalizado
-Configurei location.png no public/ do frontend para diferenciar os pontos no mapa.
-
-Sidebar com lista textual
-Além dos marcadores no mapa, os pontos retornados também aparecem em lista para maior clareza ao usuário.
