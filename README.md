@@ -92,6 +92,7 @@ Optei por Leaflet em vez de Google Maps por ser open-source, fácil de integrar 
 - **Ícone personalizado** :
 Configurei location.png no public/ do frontend para diferenciar os pontos no mapa.
 
+### Desenvolvido por "André Gaspar".
 
 
 
