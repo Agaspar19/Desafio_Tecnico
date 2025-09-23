@@ -14,7 +14,7 @@ O foco é demonstrar **integração entre frontend, backend e banco de dados loc
 - **SQLite3** : banco de dados local.
 - **Haversine (cálculo)** → fórmula para medir distância entre coordenadas.
 
-### 🔹 Frontend
+###  Frontend
 - **React (Vite)** : construção da interface.
 - **Leaflet** : mapa interativo.
 - **OpenStreetMap Tiles** : exibição do mapa.
@@ -93,6 +93,7 @@ Optei por Leaflet em vez de Google Maps por ser open-source, fácil de integrar 
 Configurei location.png no public/ do frontend para diferenciar os pontos no mapa.
 
 ### Desenvolvido por André Gaspar.
+
 
 
 
